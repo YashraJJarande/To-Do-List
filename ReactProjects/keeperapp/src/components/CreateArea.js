@@ -11,7 +11,7 @@ function handleChange(event){
   const {name,value} = event.target;
 
     setnote(prevNote => {
-      return {
+      return { 
         ...prevNote,
       [name] : value};
     })
