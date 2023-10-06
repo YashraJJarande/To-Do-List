@@ -31,7 +31,7 @@ function deleteitem(id){
       />
       <div>
         <ul>
-          { newitem.map( (items,index) => (
+          { newitem.map( (items,index) => ( 
             <Todaoitems 
             key = {index}
             text = {items} 

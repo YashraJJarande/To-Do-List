@@ -17,7 +17,7 @@ function updatetext(event){
         <button onClick={() => {
         props.onAdd(text)
           settext("") }} >
-          <span>Add</span>
+          <span>Add</span>   
         </button>
         
       </div>
